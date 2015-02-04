@@ -5,15 +5,15 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/diskconfig"
-	oskey "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/keypairs"
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/compute/v2/keypairs"
-	"github.com/rackspace/gophercloud/rackspace/compute/v2/servers"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/acceptance/tools"
+	"github.com/ggiamarchi/gophercloud/openstack/compute/v2/extensions/diskconfig"
+	oskey "github.com/ggiamarchi/gophercloud/openstack/compute/v2/extensions/keypairs"
+	os "github.com/ggiamarchi/gophercloud/openstack/compute/v2/servers"
+	"github.com/ggiamarchi/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud/rackspace/compute/v2/keypairs"
+	"github.com/ggiamarchi/gophercloud/rackspace/compute/v2/servers"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 func createServerKeyPair(t *testing.T, client *gophercloud.ServiceClient) *oskey.KeyPair {

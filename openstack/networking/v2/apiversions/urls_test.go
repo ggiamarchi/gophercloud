@@ -3,8 +3,8 @@ package apiversions
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 const endpoint = "http://localhost:57909/"

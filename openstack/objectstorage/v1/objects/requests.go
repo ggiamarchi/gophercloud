@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/objectstorage/v1/accounts"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/openstack/objectstorage/v1/accounts"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the List

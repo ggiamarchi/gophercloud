@@ -2,8 +2,8 @@ package pools
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // Pool represents a logical set of devices, such as web servers, that you

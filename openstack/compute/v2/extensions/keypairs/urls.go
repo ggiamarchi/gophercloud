@@ -1,6 +1,6 @@
 package keypairs
 
-import "github.com/rackspace/gophercloud"
+import "github.com/ggiamarchi/gophercloud"
 
 const resourcePath = "os-keypairs"
 

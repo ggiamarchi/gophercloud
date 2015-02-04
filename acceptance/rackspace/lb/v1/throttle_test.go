@@ -5,9 +5,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/throttle"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/rackspace/lb/v1/throttle"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 func TestThrottle(t *testing.T) {

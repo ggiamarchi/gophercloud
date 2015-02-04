@@ -5,8 +5,8 @@ import (
 
 	"github.com/racker/perigee"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // List is the operation responsible for returning a paginated collection of

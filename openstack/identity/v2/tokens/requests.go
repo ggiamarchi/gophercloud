@@ -2,7 +2,7 @@ package tokens
 
 import (
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // AuthOptionsBuilder describes any argument that may be passed to the Create call.

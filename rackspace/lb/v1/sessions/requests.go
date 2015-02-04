@@ -5,7 +5,7 @@ import (
 
 	"github.com/racker/perigee"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // CreateOptsBuilder is the interface options structs have to satisfy in order

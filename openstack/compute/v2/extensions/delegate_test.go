@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	common "github.com/rackspace/gophercloud/openstack/common/extensions"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	common "github.com/ggiamarchi/gophercloud/openstack/common/extensions"
+	"github.com/ggiamarchi/gophercloud/pagination"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

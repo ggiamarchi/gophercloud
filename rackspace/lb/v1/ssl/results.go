@@ -3,8 +3,8 @@ package ssl
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // SSLTermConfig represents the SSL configuration for a particular load balancer.

@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack/identity/v2/tenants"
-	"github.com/rackspace/gophercloud/openstack/identity/v2/users"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/acceptance/tools"
+	"github.com/ggiamarchi/gophercloud/openstack/identity/v2/tenants"
+	"github.com/ggiamarchi/gophercloud/openstack/identity/v2/users"
+	"github.com/ggiamarchi/gophercloud/pagination"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 func TestUsers(t *testing.T) {

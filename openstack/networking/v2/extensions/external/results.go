@@ -2,8 +2,8 @@ package external
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud/openstack/networking/v2/networks"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // NetworkExternal represents a decorated form of a Network with based on the

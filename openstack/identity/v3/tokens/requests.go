@@ -2,7 +2,7 @@ package tokens
 
 import (
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // Scope allows a created token to be limited to a specific domain or project.

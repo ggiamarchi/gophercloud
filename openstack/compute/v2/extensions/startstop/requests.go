@@ -2,7 +2,7 @@ package startstop
 
 import (
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 func actionURL(client *gophercloud.ServiceClient, id string) string {

@@ -5,9 +5,9 @@ package v3
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/openstack"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 func createAuthenticatedClient(t *testing.T) *gophercloud.ServiceClient {

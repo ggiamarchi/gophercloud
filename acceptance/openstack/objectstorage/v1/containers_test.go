@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud/acceptance/tools"
+	"github.com/ggiamarchi/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/ggiamarchi/gophercloud/pagination"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 // numContainers is the number of containers to create for testing.

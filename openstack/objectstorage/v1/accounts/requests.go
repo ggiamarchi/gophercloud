@@ -2,7 +2,7 @@ package accounts
 
 import (
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // GetOptsBuilder allows extensions to add additional headers to the Get

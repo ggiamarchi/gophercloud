@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // ListOpts allows the filtering and sorting of paginated collections through

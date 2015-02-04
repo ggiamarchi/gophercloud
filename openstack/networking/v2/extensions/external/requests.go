@@ -1,6 +1,6 @@
 package external
 
-import "github.com/rackspace/gophercloud/openstack/networking/v2/networks"
+import "github.com/ggiamarchi/gophercloud/openstack/networking/v2/networks"
 
 // AdminState gives users a solid type to work with for create and update
 // operations. It is recommended that users use the `Up` and `Down` enums.

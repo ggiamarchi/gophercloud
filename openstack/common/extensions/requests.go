@@ -2,8 +2,8 @@ package extensions
 
 import (
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // Get retrieves information for a specific extension using its alias.

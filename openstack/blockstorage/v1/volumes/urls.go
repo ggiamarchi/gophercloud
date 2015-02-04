@@ -1,6 +1,6 @@
 package volumes
 
-import "github.com/rackspace/gophercloud"
+import "github.com/ggiamarchi/gophercloud"
 
 func createURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("volumes")

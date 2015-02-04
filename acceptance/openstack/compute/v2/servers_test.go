@@ -6,13 +6,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/acceptance/tools"
+	"github.com/ggiamarchi/gophercloud/openstack"
+	"github.com/ggiamarchi/gophercloud/openstack/compute/v2/servers"
+	"github.com/ggiamarchi/gophercloud/openstack/networking/v2/networks"
+	"github.com/ggiamarchi/gophercloud/pagination"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 func TestListServers(t *testing.T) {

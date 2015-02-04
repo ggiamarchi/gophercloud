@@ -1,6 +1,6 @@
 package pools
 
-import "github.com/rackspace/gophercloud"
+import "github.com/ggiamarchi/gophercloud"
 
 const (
 	rootPath     = "lb"

@@ -1,9 +1,9 @@
 package keypairs
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/keypairs"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	os "github.com/ggiamarchi/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of KeyPairs.

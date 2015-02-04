@@ -3,11 +3,11 @@ package openstack
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	tokens2 "github.com/rackspace/gophercloud/openstack/identity/v2/tokens"
-	endpoints3 "github.com/rackspace/gophercloud/openstack/identity/v3/endpoints"
-	services3 "github.com/rackspace/gophercloud/openstack/identity/v3/services"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	tokens2 "github.com/ggiamarchi/gophercloud/openstack/identity/v2/tokens"
+	endpoints3 "github.com/ggiamarchi/gophercloud/openstack/identity/v3/endpoints"
+	services3 "github.com/ggiamarchi/gophercloud/openstack/identity/v3/services"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // V2EndpointURL discovers the endpoint URL for a specific service from a ServiceCatalog acquired

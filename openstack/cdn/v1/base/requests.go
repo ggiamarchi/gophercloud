@@ -1,7 +1,7 @@
 package base
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 
 	"github.com/racker/perigee"
 )

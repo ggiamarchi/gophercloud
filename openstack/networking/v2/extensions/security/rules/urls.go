@@ -1,6 +1,6 @@
 package rules
 
-import "github.com/rackspace/gophercloud"
+import "github.com/ggiamarchi/gophercloud"
 
 const rootPath = "security-group-rules"
 

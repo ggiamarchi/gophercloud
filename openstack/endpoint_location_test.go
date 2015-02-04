@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	tokens2 "github.com/rackspace/gophercloud/openstack/identity/v2/tokens"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/ggiamarchi/gophercloud"
+	tokens2 "github.com/ggiamarchi/gophercloud/openstack/identity/v2/tokens"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
+	fake "github.com/ggiamarchi/gophercloud/testhelper/client"
 )
 
 // Service catalog fixtures take too much vertical space!

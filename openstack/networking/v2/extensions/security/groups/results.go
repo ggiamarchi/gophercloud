@@ -2,9 +2,9 @@ package groups
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/security/rules"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/openstack/networking/v2/extensions/security/rules"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // SecGroup represents a container for security group rules.

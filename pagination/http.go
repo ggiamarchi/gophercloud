@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // PageResult stores the HTTP response that returned the current page of results.

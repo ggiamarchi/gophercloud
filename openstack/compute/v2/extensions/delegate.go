@@ -1,9 +1,9 @@
 package extensions
 
 import (
-	"github.com/rackspace/gophercloud"
-	common "github.com/rackspace/gophercloud/openstack/common/extensions"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	common "github.com/ggiamarchi/gophercloud/openstack/common/extensions"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // ExtractExtensions interprets a Page as a slice of Extensions.

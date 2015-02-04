@@ -2,10 +2,10 @@ package roles
 
 import (
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/pagination"
 
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/extensions/admin/roles"
+	os "github.com/ggiamarchi/gophercloud/openstack/identity/v2/extensions/admin/roles"
 )
 
 // List is the operation responsible for listing all available global roles

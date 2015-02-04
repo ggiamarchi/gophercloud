@@ -3,10 +3,10 @@ package rackspace
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack"
-	"github.com/rackspace/gophercloud/openstack/utils"
-	tokens2 "github.com/rackspace/gophercloud/rackspace/identity/v2/tokens"
+	"github.com/ggiamarchi/gophercloud"
+	os "github.com/ggiamarchi/gophercloud/openstack"
+	"github.com/ggiamarchi/gophercloud/openstack/utils"
+	tokens2 "github.com/ggiamarchi/gophercloud/rackspace/identity/v2/tokens"
 )
 
 const (

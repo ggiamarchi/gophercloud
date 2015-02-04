@@ -1,8 +1,8 @@
 package volumes
 
 import (
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	"github.com/rackspace/gophercloud/pagination"
+	os "github.com/ggiamarchi/gophercloud/openstack/blockstorage/v1/volumes"
+	"github.com/ggiamarchi/gophercloud/pagination"
 
 	"github.com/mitchellh/mapstructure"
 )

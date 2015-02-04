@@ -4,7 +4,7 @@ import (
 	"strconv"
 
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // EnableOptsBuilder allows extensions to add additional parameters to the Enable

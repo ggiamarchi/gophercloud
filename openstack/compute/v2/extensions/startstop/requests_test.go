@@ -3,8 +3,8 @@ package startstop
 import (
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
+	"github.com/ggiamarchi/gophercloud/testhelper/client"
 )
 
 const serverID = "{serverId}"

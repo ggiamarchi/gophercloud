@@ -3,7 +3,7 @@ package monitors
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // Type represents the type of Monitor.

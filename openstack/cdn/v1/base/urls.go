@@ -1,6 +1,6 @@
 package base
 
-import "github.com/rackspace/gophercloud"
+import "github.com/ggiamarchi/gophercloud"
 
 func getURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL()

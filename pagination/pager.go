@@ -3,7 +3,7 @@ package pagination
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 var (

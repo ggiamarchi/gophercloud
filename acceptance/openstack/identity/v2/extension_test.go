@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	extensions2 "github.com/rackspace/gophercloud/openstack/identity/v2/extensions"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	extensions2 "github.com/ggiamarchi/gophercloud/openstack/identity/v2/extensions"
+	"github.com/ggiamarchi/gophercloud/pagination"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 func TestEnumerateExtensions(t *testing.T) {

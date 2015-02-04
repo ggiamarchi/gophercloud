@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
+	"github.com/ggiamarchi/gophercloud"
 )
 
 // DeleteOptsBuilder allows extensions to add additional parameters to the Delete

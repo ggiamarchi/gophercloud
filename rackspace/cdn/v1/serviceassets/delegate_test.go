@@ -3,9 +3,9 @@ package serviceassets
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/cdn/v1/serviceassets"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/ggiamarchi/gophercloud/openstack/cdn/v1/serviceassets"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
+	fake "github.com/ggiamarchi/gophercloud/testhelper/client"
 )
 
 func TestDelete(t *testing.T) {

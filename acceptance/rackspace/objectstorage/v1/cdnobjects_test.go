@@ -6,11 +6,11 @@ import (
 	"bytes"
 	"testing"
 
-	raxCDNContainers "github.com/rackspace/gophercloud/rackspace/objectstorage/v1/cdncontainers"
-	raxCDNObjects "github.com/rackspace/gophercloud/rackspace/objectstorage/v1/cdnobjects"
-	raxContainers "github.com/rackspace/gophercloud/rackspace/objectstorage/v1/containers"
-	raxObjects "github.com/rackspace/gophercloud/rackspace/objectstorage/v1/objects"
-	th "github.com/rackspace/gophercloud/testhelper"
+	raxCDNContainers "github.com/ggiamarchi/gophercloud/rackspace/objectstorage/v1/cdncontainers"
+	raxCDNObjects "github.com/ggiamarchi/gophercloud/rackspace/objectstorage/v1/cdnobjects"
+	raxContainers "github.com/ggiamarchi/gophercloud/rackspace/objectstorage/v1/containers"
+	raxObjects "github.com/ggiamarchi/gophercloud/rackspace/objectstorage/v1/objects"
+	th "github.com/ggiamarchi/gophercloud/testhelper"
 )
 
 func TestCDNObjects(t *testing.T) {

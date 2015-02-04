@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/racker/perigee"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/ggiamarchi/gophercloud"
+	"github.com/ggiamarchi/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

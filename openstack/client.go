@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/rackspace/gophercloud"
-	tokens2 "github.com/rackspace/gophercloud/openstack/identity/v2/tokens"
-	tokens3 "github.com/rackspace/gophercloud/openstack/identity/v3/tokens"
-	"github.com/rackspace/gophercloud/openstack/utils"
+	"github.com/ggiamarchi/gophercloud"
+	tokens2 "github.com/ggiamarchi/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/ggiamarchi/gophercloud/openstack/identity/v3/tokens"
+	"github.com/ggiamarchi/gophercloud/openstack/utils"
 )
 
 const (
